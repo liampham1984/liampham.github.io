@@ -1,0 +1,64 @@
+body {
+  background-color: #e9ebee;
+  font-family:'Open Sans',sans-serif;
+  font-size:13px;
+  margin: 0 auto;
+}
+
+.banner::before {
+  background-attachment: scroll;
+  background-color: #343a40;
+  background-image: url(https://www.redlum.group/images/html5-css3-development-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  margin-left: 0;
+  min-width: 100%;
+  min-height: 140px;
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 10px 20px;
+  border-radius: 50%;
+}
+
+.banner > h1 {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.content {
+  min-height: 300px;
+  padding: 15px;
+}
+
+.labs li a {
+  text-decoration: none;
+}
+
+/* Footer stylesheet */
+footer {
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  padding: 15px;
+  background-color: #ddd;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer .siteInfo {
+float: left;
+}
+
+footer .w3c {
+  float: right;
+  padding-right: 30px;
+}
